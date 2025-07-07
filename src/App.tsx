@@ -1,14 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Binder  from './component/Binder'
 import './App.css'
 
 function App() {
   return (
     <>
-      <div className='h-full w-full bg-green-200'>
-        <h1>cardBinder</h1>
-      </div>
+      <main>
+        <div className='h-full w-full bg-green-200'>
+          <h1>cardBinder</h1>
+        </div>
+        <div>
+          <Binder />
+        </div>
+      </main>
     </>
   )
 }
