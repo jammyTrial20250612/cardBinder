@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <main>
-        <div className='h-full w-full bg-green-200'>
+        <div className='h-30 w-full bg-green-200'>
           <h1>cardBinder</h1>
         </div>
         <div>
