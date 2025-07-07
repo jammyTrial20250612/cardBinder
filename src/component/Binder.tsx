@@ -12,8 +12,11 @@ const Binder = () => {
                 <div className="m-8 p-8 w-48 h-screen bg-white">sentence</div>
             </div>
             <div>
-                <div className="w-3xl h-xs bg-sky-200 p-8">
-                    filtering
+                <div className="w-3xl h-xs bg-sky-200 p-8 flex flex-row">
+                    <div>filtering</div>
+                    <div>
+                        {/* <button onClick={}>card plus</button> */}
+                    </div>
                 </div>
                 <div className="w-3xl h-screen flex flex-row bg-blue-400 flex-wrap">
                     <div><Card /></div>
