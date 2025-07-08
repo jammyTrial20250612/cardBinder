@@ -3,12 +3,8 @@ export type CardState = {
     title: string,
     date: string,
     contentSummery: string
-    contentA: string,
-    contentB: string,
-    contentC: string
+    tagA: string,
+    tagB: string,
+    tagC: string
     img_url: string,
-}
-
-export type CardSet = {
-    CardSet: CardState[]
 }
